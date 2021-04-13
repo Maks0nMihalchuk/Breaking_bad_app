@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		2DB8130726260B3500C95730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8130626260B3500C95730 /* AppDelegate.swift */; };
 		2DB8130926260B3500C95730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8130826260B3500C95730 /* SceneDelegate.swift */; };
-		2DB8130B26260B3500C95730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8130A26260B3500C95730 /* ViewController.swift */; };
-		2DB8130E26260B3500C95730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8130C26260B3500C95730 /* Main.storyboard */; };
+		2DB8130B26260B3500C95730 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8130A26260B3500C95730 /* CharactersViewController.swift */; };
 		2DB8131026260B3700C95730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8130F26260B3700C95730 /* Assets.xcassets */; };
 		2DB8131326260B3700C95730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB8131126260B3700C95730 /* LaunchScreen.storyboard */; };
+		2DB8132D262614D400C95730 /* CharactersAssemblyProtocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8132C262614D400C95730 /* CharactersAssemblyProtocol .swift */; };
+		2DB8132F2626151B00C95730 /* CharactersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8132E2626151B00C95730 /* CharactersAssembly.swift */; };
+		2DB813312626164800C95730 /* CharactersStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB813302626164800C95730 /* CharactersStoryboard.storyboard */; };
+		2DB813332626177200C95730 /* CharactersRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB813322626177200C95730 /* CharactersRoutingProtocol.swift */; };
+		2DB81335262617C100C95730 /* CharactersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB81334262617C100C95730 /* CharactersRouter.swift */; };
+		2DB81338262619CE00C95730 /* MainAssemblyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB81337262619CE00C95730 /* MainAssemblyProtocol.swift */; };
+		2DB8133A262619D800C95730 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB81339262619D800C95730 /* MainAssembly.swift */; };
+		2DB8133C26261A4000C95730 /* MainRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8133B26261A4000C95730 /* MainRoutingProtocol.swift */; };
+		2DB8133E26261A5B00C95730 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8133D26261A5B00C95730 /* MainRouter.swift */; };
+		2DB81345262621DB00C95730 /* FavoritesCharactersAssemblyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB81344262621DB00C95730 /* FavoritesCharactersAssemblyProtocol.swift */; };
+		2DB81347262621FE00C95730 /* FavoriteCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB81346262621FE00C95730 /* FavoriteCharactersViewController.swift */; };
+		2DB813492626237400C95730 /* FavoritesCharactersStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB813482626237400C95730 /* FavoritesCharactersStoryboard.storyboard */; };
+		2DB8134B262623FC00C95730 /* FavoritesCharactersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8134A262623FC00C95730 /* FavoritesCharactersAssembly.swift */; };
+		2DB8134D2626268900C95730 /* FavoritesCharactersRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8134C2626268900C95730 /* FavoritesCharactersRoutingProtocol.swift */; };
+		2DB8134F262626E000C95730 /* FavoritesCharactersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB8134E262626E000C95730 /* FavoritesCharactersRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DB8130326260B3500C95730 /* Breaking bad app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breaking bad app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB8130626260B3500C95730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB8130826260B3500C95730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DB8130A26260B3500C95730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DB8130D26260B3500C95730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DB8130A26260B3500C95730 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		2DB8130F26260B3700C95730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB8131226260B3700C95730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB8131426260B3700C95730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB8132C262614D400C95730 /* CharactersAssemblyProtocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersAssemblyProtocol .swift"; sourceTree = "<group>"; };
+		2DB8132E2626151B00C95730 /* CharactersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAssembly.swift; sourceTree = "<group>"; };
+		2DB813302626164800C95730 /* CharactersStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharactersStoryboard.storyboard; sourceTree = "<group>"; };
+		2DB813322626177200C95730 /* CharactersRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRoutingProtocol.swift; sourceTree = "<group>"; };
+		2DB81334262617C100C95730 /* CharactersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRouter.swift; sourceTree = "<group>"; };
+		2DB81337262619CE00C95730 /* MainAssemblyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainAssemblyProtocol.swift; path = "Breaking bad app/UI/Stories/CharactersStory/Router/MainAssemblyProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		2DB81339262619D800C95730 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainAssembly.swift; path = "Breaking bad app/UI/Stories/CharactersStory/Router/MainAssembly.swift"; sourceTree = SOURCE_ROOT; };
+		2DB8133B26261A4000C95730 /* MainRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoutingProtocol.swift; sourceTree = "<group>"; };
+		2DB8133D26261A5B00C95730 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		2DB81344262621DB00C95730 /* FavoritesCharactersAssemblyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCharactersAssemblyProtocol.swift; sourceTree = "<group>"; };
+		2DB81346262621FE00C95730 /* FavoriteCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCharactersViewController.swift; sourceTree = "<group>"; };
+		2DB813482626237400C95730 /* FavoritesCharactersStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoritesCharactersStoryboard.storyboard; sourceTree = "<group>"; };
+		2DB8134A262623FC00C95730 /* FavoritesCharactersAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCharactersAssembly.swift; sourceTree = "<group>"; };
+		2DB8134C2626268900C95730 /* FavoritesCharactersRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCharactersRoutingProtocol.swift; sourceTree = "<group>"; };
+		2DB8134E262626E000C95730 /* FavoritesCharactersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCharactersRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,155 @@
 			children = (
 				2DB8130626260B3500C95730 /* AppDelegate.swift */,
 				2DB8130826260B3500C95730 /* SceneDelegate.swift */,
-				2DB8130A26260B3500C95730 /* ViewController.swift */,
-				2DB8130C26260B3500C95730 /* Main.storyboard */,
+				2DB8131A26260EA100C95730 /* UI */,
+				2DB813502626295800C95730 /* Resorces */,
+			);
+			path = "Breaking bad app";
+			sourceTree = "<group>";
+		};
+		2DB8131A26260EA100C95730 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8131B26260EA700C95730 /* Stories */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2DB8131B26260EA700C95730 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8131C26260ECE00C95730 /* MainStory */,
+				2DB813272626114500C95730 /* CharactersStory */,
+				2DB8133F2626215200C95730 /* FavoritesCharactersStory */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		2DB8131C26260ECE00C95730 /* MainStory */ = {
+			isa = PBXGroup;
+			children = (
+				2DB813362626197F00C95730 /* Router */,
+				2DB8131D26260EE400C95730 /* Assembly */,
+			);
+			path = MainStory;
+			sourceTree = "<group>";
+		};
+		2DB8131D26260EE400C95730 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DB81337262619CE00C95730 /* MainAssemblyProtocol.swift */,
+				2DB81339262619D800C95730 /* MainAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2DB813272626114500C95730 /* CharactersStory */ = {
+			isa = PBXGroup;
+			children = (
+				2DB813292626137A00C95730 /* Router */,
+				2DB813282626137000C95730 /* Assembly */,
+				2DB8132A2626138400C95730 /* ViewController */,
+				2DB8132B2626139800C95730 /* Storyboard */,
+			);
+			path = CharactersStory;
+			sourceTree = "<group>";
+		};
+		2DB813282626137000C95730 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8132C262614D400C95730 /* CharactersAssemblyProtocol .swift */,
+				2DB8132E2626151B00C95730 /* CharactersAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2DB813292626137A00C95730 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DB813322626177200C95730 /* CharactersRoutingProtocol.swift */,
+				2DB81334262617C100C95730 /* CharactersRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DB8132A2626138400C95730 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8130A26260B3500C95730 /* CharactersViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DB8132B2626139800C95730 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2DB813302626164800C95730 /* CharactersStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2DB813362626197F00C95730 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8133B26261A4000C95730 /* MainRoutingProtocol.swift */,
+				2DB8133D26261A5B00C95730 /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DB8133F2626215200C95730 /* FavoritesCharactersStory */ = {
+			isa = PBXGroup;
+			children = (
+				2DB81343262621BA00C95730 /* Router */,
+				2DB81342262621B500C95730 /* Assembly */,
+				2DB81341262621AD00C95730 /* ViewController */,
+				2DB81340262621A200C95730 /* Storyboard */,
+			);
+			path = FavoritesCharactersStory;
+			sourceTree = "<group>";
+		};
+		2DB81340262621A200C95730 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2DB813482626237400C95730 /* FavoritesCharactersStoryboard.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2DB81341262621AD00C95730 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DB81346262621FE00C95730 /* FavoriteCharactersViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2DB81342262621B500C95730 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				2DB81344262621DB00C95730 /* FavoritesCharactersAssemblyProtocol.swift */,
+				2DB8134A262623FC00C95730 /* FavoritesCharactersAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2DB81343262621BA00C95730 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2DB8134C2626268900C95730 /* FavoritesCharactersRoutingProtocol.swift */,
+				2DB8134E262626E000C95730 /* FavoritesCharactersRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DB813502626295800C95730 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
 				2DB8130F26260B3700C95730 /* Assets.xcassets */,
 				2DB8131126260B3700C95730 /* LaunchScreen.storyboard */,
 				2DB8131426260B3700C95730 /* Info.plist */,
 			);
-			path = "Breaking bad app";
+			path = Resorces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB813312626164800C95730 /* CharactersStoryboard.storyboard in Resources */,
 				2DB8131326260B3700C95730 /* LaunchScreen.storyboard in Resources */,
 				2DB8131026260B3700C95730 /* Assets.xcassets in Resources */,
-				2DB8130E26260B3500C95730 /* Main.storyboard in Resources */,
+				2DB813492626237400C95730 /* FavoritesCharactersStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +309,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB8130B26260B3500C95730 /* ViewController.swift in Sources */,
+				2DB8130B26260B3500C95730 /* CharactersViewController.swift in Sources */,
+				2DB81347262621FE00C95730 /* FavoriteCharactersViewController.swift in Sources */,
+				2DB81345262621DB00C95730 /* FavoritesCharactersAssemblyProtocol.swift in Sources */,
+				2DB8133A262619D800C95730 /* MainAssembly.swift in Sources */,
 				2DB8130726260B3500C95730 /* AppDelegate.swift in Sources */,
+				2DB8133C26261A4000C95730 /* MainRoutingProtocol.swift in Sources */,
+				2DB813332626177200C95730 /* CharactersRoutingProtocol.swift in Sources */,
+				2DB8132D262614D400C95730 /* CharactersAssemblyProtocol .swift in Sources */,
+				2DB8134B262623FC00C95730 /* FavoritesCharactersAssembly.swift in Sources */,
+				2DB8134D2626268900C95730 /* FavoritesCharactersRoutingProtocol.swift in Sources */,
+				2DB81338262619CE00C95730 /* MainAssemblyProtocol.swift in Sources */,
+				2DB8132F2626151B00C95730 /* CharactersAssembly.swift in Sources */,
+				2DB81335262617C100C95730 /* CharactersRouter.swift in Sources */,
+				2DB8133E26261A5B00C95730 /* MainRouter.swift in Sources */,
+				2DB8134F262626E000C95730 /* FavoritesCharactersRouter.swift in Sources */,
 				2DB8130926260B3500C95730 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +331,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2DB8130C26260B3500C95730 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DB8130D26260B3500C95730 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2DB8131126260B3700C95730 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Breaking bad app/Info.plist";
+				INFOPLIST_FILE = "Breaking bad app/Resorces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Breaking bad app/Info.plist";
+				INFOPLIST_FILE = "Breaking bad app/Resorces/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
